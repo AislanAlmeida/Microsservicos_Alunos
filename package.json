@@ -6,10 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
-},
-"nodemonConfig":{
-  "ignore":["dados/*json"]
-},
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "dados/*json"
+    ]
+  },
   "author": "Aislan Almeida",
   "license": "ISC",
   "dependencies": {

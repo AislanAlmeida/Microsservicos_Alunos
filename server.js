@@ -8,4 +8,4 @@ const routerAlunos = require('./routes/r_alunos');
 
 app.use('/alunos',routerAlunos);
 
-app.listen(3000,() => console.log('Server Microsserviços Alunos - ATIVO ==> porta 3000'));
+app.listen(3001,() => console.log('Server Microsserviços Alunos - ATIVO ==> porta 3000'));
